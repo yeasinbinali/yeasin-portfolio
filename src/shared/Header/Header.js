@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="mt-3">
-      <div className="navbar bg-base-100 px-0">
+      <header className="navbar bg-base-100 px-0 mt-3">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn pl-0 btn-ghost lg:hidden">
@@ -42,7 +41,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <Link to="/" className="text-primary text-2xl font-bold">
+          <Link to="/" className="text-primary text-3xl font-bold">
             <h3>YEASIN</h3>
           </Link>
         </div>
@@ -63,10 +62,9 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link className="text-primary text-2xl font-bold">RESUME</Link>
+          <Link className="text-primary text-3xl font-bold">RESUME</Link>
         </div>
-      </div>
-    </div>
+      </header>
   );
 };
 
