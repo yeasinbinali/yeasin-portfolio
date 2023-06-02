@@ -1,0 +1,11 @@
+i:hover {
+    color: #9CFF2E;
+}
+button{
+    border: 1px solid white;
+    padding: 10px 30px;
+}
+button:hover{
+    border: 1px solid #9CFF2E;
+    color: #9CFF2E;
+}
