@@ -13,9 +13,8 @@ const About = () => {
           />
         </div>
         <div className="w-1/2">
-          <h3 className="text-3xl text-primary">
+          <h3 className="text-3xl text-primary font-bold">
             About
-            <hr />
           </h3>
           <p className="my-10 text-justify">
             Hello! My name is Mohammad Yasin and I enjoy making creative things.
