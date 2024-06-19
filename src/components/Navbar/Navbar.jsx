@@ -38,7 +38,7 @@ const Navbar = () => {
                     src="/images/logo.png"
                     width={150}
                     height={50}
-                    alt="Picture of the author"
+                    alt="logo"
                 />
             </div>
             <div className="navbar-center hidden lg:flex">
