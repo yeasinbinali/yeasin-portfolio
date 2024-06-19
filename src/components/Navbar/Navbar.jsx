@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 // import logo from '../../assets/logo.png'; 
@@ -33,7 +34,12 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </div>
-                <h1 className='text-main text-4xl font-bold'>Yeasin</h1>
+                <Image
+                    src="/images/logo.png"
+                    width={150}
+                    height={50}
+                    alt="Picture of the author"
+                />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
