@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "JavaScript",
+        "name": "JavaScript ES6+",
         "image": "https://i.ibb.co/dfFPLXh/javascript.png"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
         "id": 5,
-        "name": "MaterialUI",
+        "name": "Material UI",
         "image": "https://i.ibb.co/mX3P8Hq/materialui.png"
     },
     {
