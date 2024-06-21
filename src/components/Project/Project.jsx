@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Button from '../Button/Button';
+import Link from 'next/link';
 
 const Project = ({ project }) => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -33,18 +34,31 @@ const Project = ({ project }) => {
                     }`}
                 style={{ width: "50%" }}
             >
-                <div className="relative p-6 bg-sky-50 h-full">
+                <div className="relative p-5 bg-sky-50 h-full">
                     <button
                         className="absolute top-2 right-2 bg-red-500 text-white rounded-full p-1 hover:bg-red-600"
                         onClick={closeDrawer}
                     >
                         &times;
                     </button>
-                    <h1 className='text-3xl font-bold'>{name}</h1>
-                    <p className='text-xl my-3'>Features :</p>
-                    <ul className='ml-3'>
-                        {description.map((des, index) => <li className='mb-1' key={index}>&#x2022; {des}</li>)}
-                    </ul>
+                    <div>
+                        <div>
+                            <h1 className='text-3xl font-bold'>{name}</h1>
+                            <p className='text-xl my-3'>Features :</p>
+                            <ul className='ml-3'>
+                                {description.map((des, index) => <li className='mb-1' key={index}>&#x2022; {des}</li>)}
+                            </ul>
+                            <p className='text-xl mt-3 mb-3'>Technologies used : </p>
+                            <div className='grid grid-cols-3 gap-5'>
+                                {technologies.map(technology => <p className='border-[1px] border-slate-300 flex justify-center'>{technology}</p>)}
+                            </div>
+                        </div>
+                        <div className='flex justify-between items-center mt-5'>
+                            <Link href={live_site}><Button name={"Live Site"}></Button></Link>
+                            <Link href={frontend_code}><Button name={"Frontend code"}></Button></Link>
+                            <Link href={backend_code}><Button name={"Backend code"}></Button></Link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
