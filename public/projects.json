@@ -43,5 +43,46 @@
         "live_site": "https://radar-weather.netlify.app",
         "frontend_code": "https://github.com/yeasinbinali/radar-weather",
         "backend_code": "https://github.com/yeasinbinali/radar-weather-server"
+    },
+    {
+        "id": 4,
+        "name": "Royella",
+        "description": [
+            "Hotel room booking website",
+            "Here you can book the available room by specifying the date and update it later.",
+            "You can give your important opinion in the room booked.",
+            "Also there is an option to filter the price of the rooms."
+        ],
+        "image": "https://i.ibb.co/bRNB4sh/download.png",
+        "technologies": ["ReactJS", "DaisyUI", "React Router Dom", "MongoDB", "Firebase Auth", "Node Server"],
+        "live_site": "https://royella-luxury-hotel.web.app",
+        "frontend_code": "https://github.com/yeasinbinali/royella",
+        "backend_code": "https://github.com/yeasinbinali/royella-server"
+    },
+    {
+        "id": 5,
+        "name": "Khairah Charity",
+        "description": [
+            "Go for help - A donation based website",
+            "Here you can donate to several projects. However, you must login to donate.",
+            "While donating you will submit your name, phone number, message. Later it will be added to your donation section.",
+            "The donation form given earlier is approved and later it has to be paid."
+        ],
+        "image": "https://i.ibb.co/JcWT8Gv/download.png",
+        "technologies": ["ReactJS", "DaisyUI", "React Router Dom", "MongoDB", "Firebase Auth", "Node Server", "Stripe Payment"],
+        "live_site": "https://khairah-charity.web.app",
+        "frontend_code": "https://github.com/yeasinbinali/khairah-charity",
+        "backend_code": "https://github.com/yeasinbinali/khairah-charity-server"
+    },
+    {
+        "id": 6,
+        "name": "Simple Calculator",
+        "description": [
+            "A simple calculator"
+        ],
+        "image": "https://i.ibb.co/BjPR8Nw/download.png",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_site": "https://yeasinbinali.github.io/simple-calculator",
+        "frontend_code": "https://github.com/yeasinbinali/simple-calculator"
     }
 ]

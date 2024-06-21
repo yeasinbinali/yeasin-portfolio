@@ -54,7 +54,7 @@ const Project = ({ project }) => {
                         <div className='flex justify-between items-center mt-5'>
                             <Link href={live_site}><Button name={"Live Site"}></Button></Link>
                             <Link href={frontend_code}><Button name={"Frontend code"}></Button></Link>
-                            <Link href={backend_code}><Button name={"Backend code"}></Button></Link>
+                            {backend_code && <Link href={backend_code}><Button name={"Backend code"}></Button></Link>}
                         </div>
                     </div>
                 </div>
