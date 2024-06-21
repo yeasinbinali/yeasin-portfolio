@@ -21,9 +21,7 @@ const Project = ({ project }) => {
             <img src={image} alt="img" className='brightness-50' />
             <div className="px-6 py-4 border-t absolute right-10 bottom-10">
                 <button
-                    // id='glow-on-hover'
                     className='glow-on-hover flex justify-center items-center'
-                    // className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
                     onClick={toggleDrawer}
                 >
                     {isDrawerOpen ? 'Close Details' : 'Full Details'}
@@ -36,7 +34,7 @@ const Project = ({ project }) => {
             >
                 <div className="relative p-5 bg-sky-50 h-full">
                     <button
-                        className="absolute top-2 right-2 bg-red-500 text-white rounded-full p-1 hover:bg-red-600"
+                        className="absolute top-2 right-2 bg-main text-white rounded-full p-1 hover:bg-sky-600"
                         onClick={closeDrawer}
                     >
                         &times;
@@ -62,9 +60,6 @@ const Project = ({ project }) => {
                 </div>
             </div>
         </div>
-        // <div className='mb-10 relative'>
-        //     <img src={image} alt="img" className='brightness-50' />
-        // </div>
     );
 };
 
