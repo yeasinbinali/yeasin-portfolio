@@ -3,12 +3,13 @@
         "id": 1,
         "name": "Smart HR",
         "description": [
-            "A cloud-based Human Resource Management System (HRMS",
+            "A cloud-based Human Resource Management System (HRMS)",
             "There are total 3 signup routes in this website - Employee, HR and Admin.",
             "After logging in, an employee can add daily tasks to his dashboard and view his payment history.",
             "HR will be able to view the progress of all employees, verify employees and make their payments on its dashboard.",
             "Admin can view all employees in his dashboard and update their salary, convert employees to HR and also can see all the messages."
         ],
+        "image": "https://i.ibb.co/yRh1V27/download.png",
         "technologies": ["ReactJS", "Flowbite", "React Router Dom", "Axios", "MongoDB", "Node Server", "Firebase Auth", "Stripe Payment"],
         "live_site": "https://smart-hr-site.web.app",
         "frontend_code": "https://github.com/yeasinbinali/smarthr",
@@ -23,6 +24,7 @@
             "Users also have the opportunity to review.",
             "In admin dashboard, admin can view all login users and convert any user to admin. Also can add new services."
         ],
+        "image": "https://i.ibb.co/nLykLqN/download.png",
         "technologies": ["ReactJS", "Daisy UI", "React Router Dom", "MongoDB", "Node Server", "Firebase Auth", "Stripe Payment"],
         "live_site": "https://men-beauty-parlour.web.app",
         "frontend_code": "https://github.com/yeasinbinali/men-beauty-parlour",
@@ -36,6 +38,7 @@
             "You can search the weather of different countries or cities and see the weather forecast for the next 5 days and also toggle the weather of different countries in Celsius and Fahrenheit.",
             "You can list your favorite country or city separately. However, you cannot add a country or city to the favorite list more than once. If you want, you can delete the country or city of the favorite list."
         ],
+        "image": "https://i.ibb.co/jT1MBg7/download.png",
         "technologies": ["ReactJS", "DaisyUI", "Open Weather API", "Axios", "MongoDB", "Node Server"],
         "live_site": "https://radar-weather.netlify.app",
         "frontend_code": "https://github.com/yeasinbinali/radar-weather",
