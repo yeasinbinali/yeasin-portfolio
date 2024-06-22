@@ -14,6 +14,10 @@ const Navbar = () => {
             location: '/about'
         },
         {
+            title: 'Projects',
+            location: '/projects'
+        },
+        {
             title: 'Contact',
             location: '/contact'
         }
