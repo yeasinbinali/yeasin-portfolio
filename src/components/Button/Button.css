@@ -76,3 +76,10 @@
         height: 30px;
     }
 }
+
+@media not all and (min-width: 1024px) {
+    .glow-on-hover {
+        width: 140px;
+        height: 35px;
+    }
+}

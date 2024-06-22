@@ -28,7 +28,7 @@ const WelcomeHeader = () => {
                     delaySpeed={2000}
                 />
             </h3>
-            <p className='text-justify mt-8 md:w-1/2 mx-auto text-lg mb-8 px-4 md:px-0'>
+            <p className='text-justify mt-8 md:w-3/4 lg:w-1/2 mx-auto text-lg mb-8 px-4 md:px-0'>
                 I'm <span className='font-semibold'>Mohammed Yeasin</span>, a dedicated web developer with a passion for crafting exceptional digital experiences. Currently, my focus is on mastering React Redux for creating sophisticated websites and delving into React Native for developing innovative mobile applications.
             </p>
             <SocialLinks></SocialLinks>
