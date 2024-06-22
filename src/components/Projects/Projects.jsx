@@ -3,7 +3,6 @@ import HeaderName from '../HeaderName/HeaderName';
 import axios from 'axios';
 import Project from '../Project/Project';
 import Button from '../Button/Button';
-import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
 const Projects = () => {
