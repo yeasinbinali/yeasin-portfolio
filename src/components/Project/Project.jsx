@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from '../Button/Button';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Project = ({ project }) => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -17,7 +18,18 @@ const Project = ({ project }) => {
 
     return (
         <div className="relative max-w-full mx-auto bg-white shadow-lg rounded-lg overflow-hidden mb-10">
-            <img src={image} alt="img" className='brightness-50' />
+            <Image
+                src={image} // Direct URL or use imported path
+                alt="Description of the image"
+                width={500} // Provide actual width in pixels
+                height={300} // Provide actual height in pixels
+                sizes="100vw"
+                className='brightness-50'
+                style={{
+                    width: '100%',
+                    height: 'auto',
+                }}
+            />
             <div className="px-6 py-4 absolute right-0 md:right-10 bottom-0 md:bottom-10">
                 <button
                     className='glow-on-hover flex justify-center items-center'
