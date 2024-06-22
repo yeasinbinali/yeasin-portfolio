@@ -13,7 +13,6 @@ const Project = ({ project }) => {
         setIsDrawerOpen(false);
     };
 
-    console.log(project);
     const { name, description, image, technologies, live_site, frontend_code, backend_code } = project;
 
     return (
@@ -48,7 +47,7 @@ const Project = ({ project }) => {
                             </ul>
                             <p className='text-xl mt-3 mb-3'>Technologies used : </p>
                             <div className='grid grid-cols-3 gap-5'>
-                                {technologies.map(technology => <p className='border-[1px] border-slate-300 flex justify-center'>{technology}</p>)}
+                                {technologies.map((technology, index) => <p key={index} className='border-[1px] border-slate-300 flex justify-center'>{technology}</p>)}
                             </div>
                         </div>
                         <div className='flex justify-between items-center mt-5'>
