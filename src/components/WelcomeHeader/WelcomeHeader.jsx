@@ -14,7 +14,7 @@ const WelcomeHeader = () => {
     }
 
     return (
-        <div className='text-center mt-16 mb-20'>
+        <div className='text-center mt-28 mb-20'>
             <p className='text-xl text-main'>Welcome to my portfolio!</p>
             <h1 className='text-6xl font-bold my-8'>Mohammed Yeasin</h1>
             <h3 className='text-3xl'>

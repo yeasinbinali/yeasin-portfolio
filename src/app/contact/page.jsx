@@ -3,7 +3,7 @@ import React from 'react';
 
 const contact = () => {
     return (
-        <div className='mt-10 mb-20'>
+        <div className='mt-28 mb-20'>
             <Contact></Contact>
         </div>
     );

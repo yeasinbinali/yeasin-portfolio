@@ -3,7 +3,7 @@ import React from 'react';
 
 const allProjectsContainer = () => {
     return (
-        <div>
+        <div className='mt-28'>
             <AllProjects></AllProjects>
         </div>
     );
