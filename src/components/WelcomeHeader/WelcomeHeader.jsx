@@ -5,8 +5,15 @@ import { Typewriter } from 'react-simple-typewriter';
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import Button from '../Button/Button';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 const WelcomeHeader = () => {
+    const router = useRouter();
+
+    const handleSendMail = () => {
+        router.push('/contact');
+    }
+
     return (
         <div className='text-center mt-16 mb-20'>
             <p className='text-xl text-main'>Welcome to my portfolio!</p>
@@ -42,7 +49,7 @@ const WelcomeHeader = () => {
                     </div>
                 </Link>
             </div>
-            <div className='mt-8'>
+            <div onClick={handleSendMail} className='mt-8'>
                 <Button name="SEND ME A MAIL"></Button>
             </div>
         </div>

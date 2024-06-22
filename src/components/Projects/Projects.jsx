@@ -4,9 +4,15 @@ import axios from 'axios';
 import Project from '../Project/Project';
 import Button from '../Button/Button';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
+    const router = useRouter();
+
+    const handleAllProjects = () => {
+        router.push('/projects');
+    }
 
     useEffect(() => {
         axios.get('projects.json')
@@ -21,7 +27,9 @@ const Projects = () => {
             <div>
                 {projects.slice(0, 3).map(project => <Project key={project.id} project={project}></Project>)}
             </div>
-            <Link href={"All Projects"}><Button name={"View More Projects"}></Button></Link>
+            <div onClick={handleAllProjects}>
+                <Button name={"View More Projects"}></Button>
+            </div>
         </div>
     );
 };

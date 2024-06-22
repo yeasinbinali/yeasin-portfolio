@@ -1,9 +1,10 @@
+"use client"
 import React, { useEffect, useState } from 'react';
 import HeaderName from '../HeaderName/HeaderName';
 import axios from 'axios';
 import Project from '../Project/Project';
 
-const Projects = () => {
+const AllProjects = () => {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
@@ -14,7 +15,7 @@ const Projects = () => {
     }, [])
 
     return (
-        <div className='mb-20'>
+        <div className='mt-10 mb-20'>
             <HeaderName name={"Some thing I've built"}></HeaderName>
             <div>
                 {projects.map(project => <Project key={project.id} project={project}></Project>)}
@@ -23,4 +24,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default AllProjects;
