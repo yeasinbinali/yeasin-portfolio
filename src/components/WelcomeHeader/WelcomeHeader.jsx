@@ -33,7 +33,7 @@ const WelcomeHeader = () => {
             </p>
             <SocialLinks></SocialLinks>
             <div onClick={handleSendMail} className='mt-8'>
-                <Button name="SEND ME A MAIL"></Button>
+                <Button name="Send me a Mail"></Button>
             </div>
         </div>
     );
