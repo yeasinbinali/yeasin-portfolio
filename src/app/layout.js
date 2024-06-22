@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} max-w-6xl mx-auto`}>
+      <body className={`${inter.className} w-[90%] mx-auto`}>
         <Navbar></Navbar>
         <div>
           {children}

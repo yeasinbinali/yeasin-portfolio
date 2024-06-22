@@ -27,7 +27,7 @@ const Projects = () => {
                 {projects.slice(0, 3).map(project => <Project key={project.id} project={project}></Project>)}
             </div>
             <div onClick={handleAllProjects}>
-                <Button name={"View More Projects"}></Button>
+                <Button name={"More Projects"}></Button>
             </div>
         </div>
     );

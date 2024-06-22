@@ -69,3 +69,10 @@
         background-position: 0 0;
     }
 }
+
+@media not all and (min-width: 640px) {
+    .glow-on-hover {
+        width: 140px;
+        height: 30px;
+    }
+}

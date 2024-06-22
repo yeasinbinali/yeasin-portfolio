@@ -7,17 +7,17 @@ const SocialLinks = () => {
         <div className='flex items-center justify-center'>
             <Link href="https://www.linkedin.com/in/mohammed-yeasin-dev" passHref>
                 <div className="tooltip" data-tip="LinkedIn">
-                    <FaLinkedin className='text-4xl'></FaLinkedin>
+                    <FaLinkedin className='text-3xl md:text-4xl'></FaLinkedin>
                 </div>
             </Link>
             <Link href="https://www.facebook.com/mohammedyeasin0" passHref>
                 <div className="tooltip px-8" data-tip="Facebook">
-                    <FaFacebook className='text-4xl'></FaFacebook>
+                    <FaFacebook className='text-3xl md:text-4xl'></FaFacebook>
                 </div>
             </Link>
             <Link href="https://github.com/yeasinbinali" passHref>
                 <div className="tooltip" data-tip="Github">
-                    <FaGithub className='text-4xl'></FaGithub>
+                    <FaGithub className='text-3xl md:text-4xl'></FaGithub>
                 </div>
             </Link>
         </div>
