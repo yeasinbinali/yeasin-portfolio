@@ -13,7 +13,7 @@ const resume = () => {
                     <p className="text-sm md:text-[16px]">Email: <span className='underline'>yeasinbinali@gmail.com</span> | Mobile: (+880) 1305256024</p>
                     <p className="text-sm md:text-[16px]">Address: Dhaka, Bangladesh</p>
                     <div>
-                        <Link className='text-sky-700 underline' href={""}>Personal Website</Link> | <Link className='text-sky-700 underline' href={"https://linkedin.com/in/mohammed-yeasin-dev"}>LinkedIn</Link> | <Link className='text-sky-700 underline' href={"https://github.com/yeasinbinali"}>Github</Link>
+                        <Link className='text-sky-700 underline' href={"https://yeasin-portfolio.vercel.app"}>Personal Website</Link> | <Link className='text-sky-700 underline' href={"https://linkedin.com/in/mohammed-yeasin-dev"}>LinkedIn</Link> | <Link className='text-sky-700 underline' href={"https://github.com/yeasinbinali"}>Github</Link>
                     </div>
                 </div>
 
