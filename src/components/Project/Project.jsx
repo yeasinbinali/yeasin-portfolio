@@ -14,10 +14,10 @@ const Project = ({ project }) => {
         setIsDrawerOpen(false);
     };
 
-    const { name, description, image, technologies, live_site, frontend_code, backend_code } = project;
+    const { name, description, image, technologies, live_site, frontend_code, backend_code, direction } = project;
 
     return (
-        <div className="relative max-w-full mx-auto bg-white shadow-lg rounded-lg overflow-hidden mb-10">
+        <div data-aos={direction} className="relative max-w-full mx-auto bg-white shadow-lg rounded-lg overflow-hidden mb-10">
             <Image
                 src={image} // Direct URL or use imported path
                 alt="Description of the image"

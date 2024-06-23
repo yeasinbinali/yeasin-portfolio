@@ -13,7 +13,8 @@
         "technologies": ["ReactJS", "Flowbite", "React Router Dom", "Axios", "MongoDB", "Node Server", "Firebase Auth", "Stripe Payment"],
         "live_site": "https://smart-hr-site.web.app",
         "frontend_code": "https://github.com/yeasinbinali/smarthr",
-        "backend_code": "https://github.com/yeasinbinali/smarthr-server"
+        "backend_code": "https://github.com/yeasinbinali/smarthr-server",
+        "direction": "fade-right"
     },
     {
         "id": 2,
@@ -28,7 +29,8 @@
         "technologies": ["ReactJS", "Daisy UI", "React Router Dom", "MongoDB", "Node Server", "Firebase Auth", "Stripe Payment"],
         "live_site": "https://men-beauty-parlour.web.app",
         "frontend_code": "https://github.com/yeasinbinali/men-beauty-parlour",
-        "backend_code": "https://github.com/yeasinbinali/men-beauty-server"
+        "backend_code": "https://github.com/yeasinbinali/men-beauty-server",
+        "direction": "fade-left"
     },
     {
         "id": 3,
@@ -42,7 +44,8 @@
         "technologies": ["ReactJS", "DaisyUI", "Open Weather API", "Axios", "MongoDB", "Node Server"],
         "live_site": "https://radar-weather.netlify.app",
         "frontend_code": "https://github.com/yeasinbinali/radar-weather",
-        "backend_code": "https://github.com/yeasinbinali/radar-weather-server"
+        "backend_code": "https://github.com/yeasinbinali/radar-weather-server",
+        "direction": "fade-right"
     },
     {
         "id": 4,
@@ -57,7 +60,8 @@
         "technologies": ["ReactJS", "DaisyUI", "React Router Dom", "MongoDB", "Firebase Auth", "Node Server"],
         "live_site": "https://royella-luxury-hotel.web.app",
         "frontend_code": "https://github.com/yeasinbinali/royella",
-        "backend_code": "https://github.com/yeasinbinali/royella-server"
+        "backend_code": "https://github.com/yeasinbinali/royella-server",
+        "direction": "fade-left"
     },
     {
         "id": 5,
@@ -72,7 +76,8 @@
         "technologies": ["ReactJS", "DaisyUI", "React Router Dom", "MongoDB", "Firebase Auth", "Node Server", "Stripe Payment"],
         "live_site": "https://khairah-charity.web.app",
         "frontend_code": "https://github.com/yeasinbinali/khairah-charity",
-        "backend_code": "https://github.com/yeasinbinali/khairah-charity-server"
+        "backend_code": "https://github.com/yeasinbinali/khairah-charity-server",
+        "direction": "fade-right"
     },
     {
         "id": 6,
@@ -83,6 +88,7 @@
         "image": "https://i.ibb.co/BjPR8Nw/download.png",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_site": "https://yeasinbinali.github.io/simple-calculator",
-        "frontend_code": "https://github.com/yeasinbinali/simple-calculator"
+        "frontend_code": "https://github.com/yeasinbinali/simple-calculator",
+        "direction": "fade-left"
     }
 ]

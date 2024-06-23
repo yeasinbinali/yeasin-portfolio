@@ -4,7 +4,7 @@ import React from 'react';
 
 const resume = () => {
     return (
-        <div className='mt-28 mb-20'>
+        <div className='mt-28 mb-20' data-aos="zoom-in">
             <div className='border-[1px] border-slate-400 p-5 md:p-10 w-[100%] md:w-[80%] h-[600px] overflow-x-auto mx-auto text-black'>
                 <h1 className='text-2xl md:text-3xl lg:text-4xl'>Mohammed Yeasin</h1>
                 <h4 className='text-lg md:text-xl mt-4'>Frontend Web Developer</h4>

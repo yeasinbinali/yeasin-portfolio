@@ -39,7 +39,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='mb-20'>
+        <div data-aos="zoom-in" className='mb-20'>
             <HeaderName name={"Send me a message"} />
             <form className="form w-[85%] md:w-[50%] mx-auto bg-sky-50" onSubmit={handleSubmit}>
                 <div className="input-container w-[85%] md:w-[50%] mx-auto ic1">
