@@ -16,7 +16,7 @@ const Technology = () => {
 
 
     return (
-        <div data-aos="zoom-in" className='mb-20'>
+        <div data-aos="fade-up" className='mb-20'>
             <HeaderName name={"Technologies I've been working on"}></HeaderName>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                 {technologies.map(technology => (

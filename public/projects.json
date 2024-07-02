@@ -14,7 +14,7 @@
         "live_site": "https://smart-hr-site.web.app",
         "frontend_code": "https://github.com/yeasinbinali/smarthr",
         "backend_code": "https://github.com/yeasinbinali/smarthr-server",
-        "direction": "fade-right"
+        "direction": "zoom-in"
     },
     {
         "id": 2,
@@ -30,7 +30,7 @@
         "live_site": "https://men-beauty-parlour.web.app",
         "frontend_code": "https://github.com/yeasinbinali/men-beauty-parlour",
         "backend_code": "https://github.com/yeasinbinali/men-beauty-server",
-        "direction": "fade-left"
+        "direction": "zoom-in"
     },
     {
         "id": 3,
@@ -45,7 +45,7 @@
         "live_site": "https://radar-weather.netlify.app",
         "frontend_code": "https://github.com/yeasinbinali/radar-weather",
         "backend_code": "https://github.com/yeasinbinali/radar-weather-server",
-        "direction": "fade-right"
+        "direction": "zoom-in"
     },
     {
         "id": 4,
@@ -61,7 +61,7 @@
         "live_site": "https://royella-luxury-hotel.web.app",
         "frontend_code": "https://github.com/yeasinbinali/royella",
         "backend_code": "https://github.com/yeasinbinali/royella-server",
-        "direction": "fade-left"
+        "direction": "zoom-in"
     },
     {
         "id": 5,
@@ -77,7 +77,7 @@
         "live_site": "https://khairah-charity.web.app",
         "frontend_code": "https://github.com/yeasinbinali/khairah-charity",
         "backend_code": "https://github.com/yeasinbinali/khairah-charity-server",
-        "direction": "fade-right"
+        "direction": "zoom-in"
     },
     {
         "id": 6,
@@ -89,6 +89,6 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_site": "https://yeasinbinali.github.io/simple-calculator",
         "frontend_code": "https://github.com/yeasinbinali/simple-calculator",
-        "direction": "fade-left"
+        "direction": "zoom-in"
     }
 ]
